@@ -1,0 +1,44 @@
+PODS:
+  - Flutter (1.0.0)
+  - Giphy (2.2.16):
+    - libwebp
+  - giphy_flutter_sdk (1.0.5):
+    - Flutter
+    - Giphy (= 2.2.16)
+  - libwebp (1.5.0):
+    - libwebp/demux (= 1.5.0)
+    - libwebp/mux (= 1.5.0)
+    - libwebp/sharpyuv (= 1.5.0)
+    - libwebp/webp (= 1.5.0)
+  - libwebp/demux (1.5.0):
+    - libwebp/webp
+  - libwebp/mux (1.5.0):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.5.0)
+  - libwebp/webp (1.5.0):
+    - libwebp/sharpyuv
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - giphy_flutter_sdk (from `.symlinks/plugins/giphy_flutter_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Giphy
+    - libwebp
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  giphy_flutter_sdk:
+    :path: ".symlinks/plugins/giphy_flutter_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  Giphy: 55914215541027873875757f350530e6d8986fba
+  giphy_flutter_sdk: df99002fb8641f32793f545cf904a4b77d353dbe
+  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
+
+PODFILE CHECKSUM: 251cb053df7158f337c0712f2ab29f4e0fa474ce
+
+COCOAPODS: 1.16.2
