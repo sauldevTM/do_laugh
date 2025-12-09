@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  giphy_flutter_sdk: ^1.0.5
+  flutter_bloc: ^9.1.1
 
 dev_dependencies:
   flutter_test:
