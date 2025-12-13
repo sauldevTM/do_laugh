@@ -1,4 +1,4 @@
-package com.example.do_laugh
+package com.saulsm.dolaught
 
 import io.flutter.embedding.android.FlutterActivity
 
